@@ -1,0 +1,22 @@
+.login__bg{
+    background-image: url(https://images.unsplash.com/photo-1532276269954-64188308dcb3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);
+    height: 92vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+
+.text-centre{
+    padding-left: 135px;
+}
+
+@media only screen and (max-width: 756px) {
+    .login__bg{
+      display: none;
+      height: 0;
+  }
+  .text-centre{
+    padding-left: 40px;
+  }
+}
