@@ -93,6 +93,10 @@ app.get("/rooms", (req, res) => {
   res.json(rooms)
 })
 
+app.get("/", (req, res) => {
+  res.send("WORKING")
+})
+
 server.listen(PORT, () => {
   console.log("listening to port", PORT)
 })
