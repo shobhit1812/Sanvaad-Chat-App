@@ -53,7 +53,7 @@ const Sidebar = () => {
   })
 
   const getRooms = () => {
-    fetch("https://sanvaad-backend.onrender.com/rooms")
+    fetch("http://localhost:5001/rooms")
       .then((res) => res.json())
       .then((data) => setRooms(data))
   }
