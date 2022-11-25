@@ -17,7 +17,7 @@ const server = require("http").createServer(app)
 const PORT = process.env.PORT
 const io = require("socket.io")(server, {
   cors: {
-    origin: "http://localhost:3000",
+    origin: "https://sanvaad-chat-fuylxe254-shobhit1812.vercel.app/",
     methods: ["GET", "POST"],
   },
 })
